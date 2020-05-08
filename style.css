@@ -1,0 +1,167 @@
+  #container1{
+      width: 100%;
+      overflow: hidden;
+      margin: 1px auto;
+      padding: 20px;
+  }
+  #container1 ul{
+      padding: 0px;
+      margin: 0px;
+  }
+  #container1 ul li{
+      list-style: none;
+      float: left;
+      width: 380px;
+      height: 190px;
+      background: white;
+      margin: 40px 20px 4px 22px;
+      box-shadow: 7px 7px 30px lightgray;
+
+  }
+  #div1{
+      height: 25%;
+      width: 90%;
+      margin: 20px 0 50px 140px;
+      padding: 10px;
+  }
+  .font{
+      padding: 20px;
+      margin: 20px 10px 4px 12px;
+
+  }
+  #div2{
+      height: 60%;
+      width: 90%;
+      /* background: red; */
+      margin: 15px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 22px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: #316DC3
+  }
+
+
+  #conjo{
+      width: 65%;
+      overflow: hidden;
+      background:white;
+      margin: 1px;     
+      padding: 2px;
+      float: left;
+  }
+
+  
+  #con #con2{
+      display: inline;
+      float: left;
+      width: 370px;
+      height: 80px;
+      background: white;
+      margin: 25px 12px 4px 20px;
+      background: #F7F8FA;
+      border: 1.2px solid #EEEEEE;
+      
+     
+  }
+
+
+
+  #con3{
+    display: inline;
+    float: left;
+      height: 320px;
+      width:34%;
+      background: white;
+      margin: 15px 0 20px 1px;
+      padding: 10px;
+  }
+
+  #textt{
+   
+      display: inline;
+      margin: 25px;
+      text-align: left;
+      font-weight: bold;
+      font-size: 30px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: #316DC3
+      
+  }
+
+  #pa {
+  padding: 20px;
+}
+
+
+
+  #conn{
+      width: 100%;
+      overflow: hidden;
+      margin: 1px auto;
+      padding: 45px;
+  }
+  #connsa{
+      display: inline;
+      float: left;
+      overflow: hidden;
+      margin: 1px auto;
+      padding: 5px;
+  }
+
+ nav a:hover{
+ 	background-color: #316DC3;
+ 	border-radius: 20px;
+
+ }
+ nav a span:hover{
+ 	color: white;
+ 	font-weight: bold;
+ }
+@media only screen and (max-width:600px){
+	.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+		color: white !important;
+		background-color: #316DC3;
+		border-radius: 0px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+ #textt {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ #conjo {
+    width: 335px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ #con3 {
+   text-align: center;
+   width: 342px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ #textt {
+   width: 300px;
+   text-align: center;
+   margin: 12px;
+   font-size: 22px
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  #container1 ul li{
+      margin: 25px 10px 4px 8px;
+      box-shadow: 5px 5px 27px lightgray;
+      
+
+  }
+}
+
+
